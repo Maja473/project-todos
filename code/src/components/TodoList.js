@@ -22,9 +22,7 @@ const TodoList = () => {
     flex-grow: 2;
    `
     const Todo = styled.p`
-   
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 10px;
     margin:0;
     color: black`
    

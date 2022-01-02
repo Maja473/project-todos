@@ -41,19 +41,17 @@ const Main = styled.section`
 
 `
 const TaskContainer = styled.div`
-  width: 80%;
-  max-width: 350px;
-  border: 4px solid black;
-  box-shadow: 5px 5px 7px rgba(0,0,0,.25);
-  margin: 50px auto;
+  margin: 30px;
   display: flex;
+  width: 60%;
+  max-width: 200px;
   flex-direction: column;
   background: white;
 `
 const TodoContainer = styled.div`
+  max-height: 400px;
   width: 100%;
-  overflow: scroll;
-  max-height: 370px;`
+  overflow: scroll;`
 
 export const App = () => {
 
