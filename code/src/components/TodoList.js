@@ -26,37 +26,32 @@ const TodoList = () => {
     font-size: 14px;
     font-weight: bold;
     margin:0;
-    ${({ isComplete }) =>
-            isComplete &&
-            `
-    color: green`}
-   `
+    color: black`
+   
     const Checkbox = styled.input`
-   width: 20px;
-   margin: 0 20px;
-   &:active + ${({ Todo })} {
-    background-color: green;
-     }
+    width: 20px;
+    margin: 0 20px;
+    background-color: red;
   `
     const Removebutton = styled.button`
     border: none;
-    background-color: grey;
-    padding: 8px 8px;
+    background-color: white;
+    padding: 6px 6px;
     border-radius: 5px;
     font-weight: 700;
-    color: white;
-    width: 65px;
+    color: black;
+    width: 80px;
     margin-right: 10px;
    `
     const Date = styled.p`
+    font-size: 15px;
     margin:0;
-    font-size: 10px;
    `
     const Container = styled.section`
-    display: flex;
-    align-items: center;
     width: 100%;
-    margin-bottom: 8px;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
     `
 
     return (

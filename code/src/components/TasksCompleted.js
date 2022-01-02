@@ -6,11 +6,10 @@ const Tasktext = styled.p `
   font-size: 10px;
   padding: 0;
   margin:0;
-  color: grey;
+  color: red;
   `
  const Span = styled.span `
-  color: #17D7A0;
-  font-weight: bold;
+  color: grey;
  `
  
 const TasksCompleted = () => {

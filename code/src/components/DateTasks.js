@@ -21,16 +21,15 @@ const TitleContainer = styled.div`
    
   `
 const Title = styled.h1`
-  font-family: 'Bodoni Moda', serif;
-  font-size: 40px;
+  font-family: 'Times New Roman';
   text-align: center;
+  font-size: 50px;
   margin: 10px auto;`
 
 const Date = styled.h2`
-  font-size: 12px;  
-  font-weight: bold;
+  font-size: 10px;  
   margin: 0;
-  color:black;
+  color:red;
 `
 
 
@@ -45,7 +44,7 @@ const DateTasks = () => {
             </TaskDateContainer>
             
             <TitleContainer>
-                <Title> Your To-dos</Title>
+                <Title>To-dos</Title>
             </TitleContainer>
         </>
     )

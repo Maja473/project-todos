@@ -11,7 +11,7 @@ const AddContainer = styled.div `
     width: 100%;
     height: 50px;
     cursor:pointer;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 `
 const Addbutton = styled.button `
     margin-right: 10px;
@@ -19,9 +19,7 @@ const Addbutton = styled.button `
     width: 20%;
     justify-content: flex-end;
     background: white;
-    color: inherit;
-    -webkit-appearance: none;
-    -moz-appearance: none;`
+    color: inherit;`
 
 const Plus = styled.img `
     width:25px;
@@ -31,15 +29,9 @@ const TaskInput =styled.input`
     width: 80%;
     font-size: 16px;
     margin-left: 30px;
-    &:focus {
-        outline:none;
-      }   
-    &::-webkit-input-placeholder {
-        color: #CFD0D0;
-        font-size: 20px;
-        margin-left: 30px
-      }   
-`
+    color: grey;
+    font-size: 20px;
+    margin-left: 30px`
 
 
 const AddTodo = () => {
@@ -55,7 +47,7 @@ const AddTodo = () => {
         
         <AddContainer>
             <TaskInput type="text" 
-            placeholder="Add your task"
+            placeholder="Add task"
             value={input} 
             onChange ={(event) => setInput(event.target.value)}/>
            <Addbutton onClick={onAddTodo}><Plus src='assets/add.png'/> </Addbutton>

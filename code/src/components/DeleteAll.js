@@ -6,15 +6,15 @@ import todos from '../reducers/todos'
 
 const DeleteButton = styled.button`
 border: none;
-background-color: #CFD0D0;
-padding: 8px 8px;
+background-color: white;
 border-radius: 5px;
 font-weight: 600;
 color: red;
+padding: 5px 6px;
 width: 80px;
+display: flex;
 justify-content: center;
 font-size: 10px;
-display: flex;
 `
 const ButtonContainer=styled.div`
 display:flex;
